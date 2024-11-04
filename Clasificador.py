@@ -20,8 +20,8 @@ class ImageClassificator:
         )
 
         # Rutas predefinidas para las imágenes de ejemplo
-        self.bueno = os.path.join('ImagenesEntrenamiento', 'bueno.jpeg')
-        self.malo = os.path.join('ImagenesEntrenamiento', 'malo.jpeg')
+        self.bueno = os.path.join('ImagenesEntrenamiento', 'Bueno.jpeg')
+        self.malo = os.path.join('ImagenesEntrenamiento', 'Malo.jpeg')
 
     def local_image_to_data_url(self, image_path):
         """Codifica una imagen local en formato de data URL."""

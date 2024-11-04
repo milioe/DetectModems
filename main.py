@@ -11,7 +11,7 @@ st.set_page_config(page_title="Clasificación de ONTs", layout="wide")
 clasificador = ImageClassificator()
 
 # Interfaz de Streamlit
-st.title("Detección de pasillos con GPT")
+st.title("Detección de ONTs")
 
 # Sidebar para drag and drop y selección de imágenes pre-cargadas
 with st.sidebar:
