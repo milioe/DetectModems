@@ -1,0 +1,3 @@
+# uidetect
+# UISupermarket
+# DetectModems
